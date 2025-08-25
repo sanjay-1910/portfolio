@@ -1,6 +1,7 @@
 import React from 'react';
 import './Achievements.css';
 
+
 const Achievements: React.FC = () => {
   return (
     <section id="achievements" className="about">
