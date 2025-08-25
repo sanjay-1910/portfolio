@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
         <div className="hero-image">
           <div className="image-container">
             <img 
-              src="../public/ddrive ready profile photo.png" 
+              src="../public/ddrive_ready_profile_photo.png" 
               alt="Sanjay Pynala" 
             />
           </div>

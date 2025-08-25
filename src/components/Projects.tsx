@@ -5,7 +5,7 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: "Pet Care Website",
-      image: "../public/pet care project photo.png",
+      image: "../public/pet_care_project_photo.png",
       description: "A comprehensive platform designed to simplify pet management and healthcare for pet owners, this web application offers an intuitive interface with powerful features to enhance pet well-being. It enables pet owners to maintain detailed pet profiles, including breed, age while also providing a vaccination scheduling system with smart reminders and calendar-based dose tracking. The platform allows users to search and filter veterinary hospitals or clinics by location, doctor specialization, availability, and reviews. An AI-powered disease predictor analyzes symptoms to suggest possible conditions and preventive measures, while a 24/7 interactive chatbot assists with FAQs, emergency guidance, vaccination details, and quick access to nearby vets. Additionally, notifications ensure that vaccination schedules are always up to date, making this application a one-stop solution that combines healthcare, convenience, and technology to improve the quality of pet care.",
       techStack: ["HTML","CSS","Javascript", "Node.js", "Express.js", "AWS RDS","Google API","MySQL"],
       githubLinkFrontend: "https://github.com/sanjay-1910/petcare-frontend",
@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
     },
     {
       title: "Missing Person Recognition Website",
-      image: "../public/hope connect project photo.png",
+      image: "../public/hope_connect_project_photo.png",
       description: "An AI-powered web application that helps identify and locate missing persons using AWS cloud services. It securely stores images in Amazon S3 and uses AWS Rekognition for facial recognition and real-time image comparison. When a potential match is found, the system triggers instant notifications and email alerts to families, NGOs, or authorities. The platform is built with React for the frontend, Node.js & Express for the backend, and MongoDB for managing user and case data. It also supports secure user registration, image uploads, similarity scoring, and case tracking through a centralized dashboard offering a scalable and efficient solution to reunite missing individuals with their families. The system ensures data privacy and security through encrypted storage and authentication mechanisms, while its cloud-native design allows seamless scalability for handling large datasets and concurrent users.",
       techStack: ["ReactJS","Node.js","Express.js","MongoDB","AWS Rekognition","AWS S3"],
       githubLinkFrontend: "https://github.com/sanjay-1910/Hope-Connect/tree/main/client",

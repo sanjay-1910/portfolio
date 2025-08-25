@@ -21,7 +21,7 @@ const Certifications: React.FC = () => {
       description: "Demonstrated proficiency in algorithmic problem solving and data structure implementation.Certified in C++, covering object-oriented programming, data structures, algorithms, and problem-solving using C++",
       skills: ["Algorithms", "Data Structures", "Problem Solving", "Time Complexity", "Space Optimization"],
       credentialId: "HR-PS-2023-789",
-      verifyLink: "../C++ CISCO.pdf",
+      verifyLink: "../CPPCISCO.pdf",
       icon: "🏆",
       color: "#00ea64"
     },
