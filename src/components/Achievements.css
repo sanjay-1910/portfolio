@@ -1,0 +1,143 @@
+.about {
+  background: #fff;
+  padding: 100px 0;
+  /* display: flex; */
+}
+
+
+.about-image {
+  position: relative;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: translateY(-10px);
+}
+
+.about-image::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: -20px;
+  bottom: -20px;
+  border: 3px solid #3498db;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.about-text {
+  padding-left: 2rem;
+}
+
+.about-summary {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #5a6c7d;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.about-details {
+  margin-top: 2rem;
+}
+
+.detail-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detail-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.2);
+}
+
+.detail-item strong {
+  color: #2c3e50;
+  font-weight: 600;
+  min-width: 140px;
+  margin-right: 1rem;
+}
+
+.detail-item span {
+  color: #5a6c7d;
+  flex: 1;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .about-content {
+    gap: 2rem;
+  }
+  
+  .about-text {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .about-text {
+    padding-left: 0;
+  }
+  
+  .about-image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image img {
+    max-width: 250px;
+    height: 320px;
+  }
+  
+  .detail-item {
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .detail-item strong {
+    min-width: auto;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 80px 0;
+  }
+  
+  .about-image img {
+    max-width: 200px;
+    height: 280px;
+  }
+  
+  .about-summary {
+    font-size: 1rem;
+  }
+  
+  .detail-item {
+    padding: 0.8rem;
+  }
+}
